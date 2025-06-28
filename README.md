@@ -1,3 +1,15 @@
+# Prompting
+
+## File Structure
+
+/prompt_test  
+&emsp;├── output.json &emsp;&emsp;&emsp;&emsp; # JSON output containing result of prompting  
+&emsp;├── prompt_runner.py  &emsp; # python script to test prompt  
+&emsp;├── prompt.txt &emsp;&emsp;&emsp;&emsp;&ensp; # prompt file  
+&emsp;└── riddles.txt  &emsp;&emsp;&emsp;&emsp;&emsp; # riddle file containing words of animal  
+
+---
+
 # LLM Orchestration
 
 A simple proof of concept for multi-level LLM/tool orchestration built with langchain and langgraph that can perform mathematical calculations and statistical operations using Gemini-Flash-1.5 API.
