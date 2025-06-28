@@ -161,6 +161,7 @@ def run_demo():
         print(f"Test {i}: {test}")
         result = orchestrator.process_task(test)
         print(f"Result: {result}")
+        print("-" * 50)
 
 
 if __name__ == "__main__":
