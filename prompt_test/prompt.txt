@@ -1,0 +1,33 @@
+You are a clever riddle solver specializing in word games who knows a lot of animal species.
+
+Given a list of made-up fused animal words, your task is to guess which animal names were combined.
+
+The rule is:
+- Each fused word is made by taking the first few letters of two animal names, stitching them together, and then reversing the entire word.
+
+Example:
+
+Fused word: Barlow
+Step 1: Reverse the word Barlow and get 'wolrab'
+Step 2: Split the word evenly in two halves and get 'wol' and 'rab'
+Step 3: Guess animal names starting with wol to get 'wolf' and with rab to get 'rabbit'
+Step 4: Conclude the animal pair is ["Wolf", "Rabbit"]
+Step 5: Return JSON as ->
+{
+    "Barlow": ["Wolf", "Rabbit"]
+}
+
+Now, follow the same reasoning steps for the list below.
+
+Fused Words:
+
+{riddles}
+
+Respond in the following strict JSON format:
+{
+  "Riddle1": ["Animal1", "Animal2"],
+  "Riddle2": ["Animal1", "Animal2"]
+}
+
+Think carefully about the steps involved in example and then respond.
+Respond only with the final JSON — no extra explanation and words.
