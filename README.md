@@ -14,6 +14,13 @@ A simple proof of concept for multi-level LLM/tool orchestration built with lang
 
 ---
 
+## Work Demo
+
+![Demo Run](assets/demo_run.png)
+
+![Streamlit Demo](assets/streamlit_run.gif)
+
+---
 ## Quickstart
 
 ### 1. Clone repo
